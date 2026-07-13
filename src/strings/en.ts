@@ -44,7 +44,7 @@ export const en: Strings = {
     items: [
       {
         title: "Calibrated signals",
-        body: "BUY / SELL / WAIT with a probability calibrated to real up-move frequency, per-asset tuned thresholds, and a live accuracy track record that reconciles every prediction against the realized next move - so the confidence number means something.",
+        body: "BUY / SELL / WAIT with a probability calibrated to real up-move frequency, per-asset tuned thresholds, and a live accuracy track record that reconciles every prediction against the realized next move - so the confidence number means something. The dashboard also reads the stream as a position - enter, hold or exit - not just a raw per-bar call.",
       },
       {
         title: "Risk-managed by design",
