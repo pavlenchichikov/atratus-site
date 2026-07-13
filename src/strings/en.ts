@@ -133,7 +133,7 @@ export const en: Strings = {
       { name: "European", count: "36", examples: "ASML, LVMH, SAP, DAX, FTSE100" },
       { name: "Russian / MOEX", count: "51", examples: "SBER, GAZP, LKOH, YNDX, OZON" },
       { name: "Forex", count: "34", examples: "EURUSD, USDJPY, GBPUSD, USDRUB" },
-      { name: "Commodities & indices", count: "11", examples: "GOLD, OIL, SP500, VIX, DXY" },
+      { name: "Commodities & indices", count: "10", examples: "GOLD, OIL, SP500, VIX, DXY" },
     ],
   },
   shots: {
