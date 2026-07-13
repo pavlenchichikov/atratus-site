@@ -15,7 +15,7 @@ export const en: Strings = {
     badge: "Signals only. Human-in-the-loop.",
     tagline: "Multi-asset machine-learning trading-signal engine",
     summary:
-      "Atratus trains a dedicated ensemble - CatBoost, LSTM, Transformer and TCN - for each of ~181 markets across crypto, US, European and Russian equities, indices, forex and commodities. A walk-forward backtest with commissions, slippage and a leakage embargo picks the champion; its probabilities are calibrated against realized moves, sized by Kelly, and gated by a Taleb tail-risk index. A FastAPI dashboard reads the results instantly, and an autonomous, statistically-gated research agent keeps looking for genuine edge - without ever touching production on its own.",
+      "Atratus trains a dedicated ensemble - CatBoost, LSTM, Transformer and TCN - for each of ~208 markets across crypto, US, European and Russian equities, indices, forex and commodities. A walk-forward backtest with commissions, slippage and a leakage embargo picks the champion; its probabilities are calibrated against realized moves, sized by Kelly, and gated by a Taleb tail-risk index. A FastAPI dashboard reads the results instantly, and an autonomous, statistically-gated research agent keeps looking for genuine edge - without ever touching production on its own.",
     highlights: [
       "Calibrated probabilities",
       "Walk-forward selection",
@@ -29,7 +29,7 @@ export const en: Strings = {
   metrics: {
     heading: "Built for scale",
     items: [
-      { value: "~181", label: "assets, one model each" },
+      { value: "~208", label: "assets, one model each" },
       { value: "4", label: "models per asset ensemble" },
       { value: "6", label: "asset classes covered" },
       { value: "~343", label: "automated tests" },
@@ -129,8 +129,8 @@ export const en: Strings = {
     sub: "One model per asset, across six classes.",
     classes: [
       { name: "Crypto", count: "15", examples: "BTC, ETH, SOL, XRP, TON" },
-      { name: "US equities", count: "45+", examples: "NVDA, AAPL, JPM, LLY, PLTR" },
-      { name: "European", count: "26", examples: "ASML, LVMH, SAP, DAX, FTSE100" },
+      { name: "US equities", count: "62", examples: "NVDA, AAPL, JPM, LLY, PLTR" },
+      { name: "European", count: "36", examples: "ASML, LVMH, SAP, DAX, FTSE100" },
       { name: "Russian / MOEX", count: "51", examples: "SBER, GAZP, LKOH, YNDX, OZON" },
       { name: "Forex", count: "34", examples: "EURUSD, USDJPY, GBPUSD, USDRUB" },
       { name: "Commodities & indices", count: "11", examples: "GOLD, OIL, SP500, VIX, DXY" },

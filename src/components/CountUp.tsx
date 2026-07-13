@@ -12,7 +12,7 @@ const reduce = (): boolean =>
 
 /**
  * Counts a numeric value up from zero when it scrolls into view, preserving any
- * non-numeric prefix/suffix (e.g. "~181", "15y", "45+"). Static under reduced
+ * non-numeric prefix/suffix (e.g. "~208", "15y", "45+"). Static under reduced
  * motion or when the value has no number.
  */
 export function CountUp({ value, className }: Props) {
